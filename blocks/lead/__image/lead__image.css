@@ -1,0 +1,18 @@
+.lead__image {
+    background-image: url("../../../images/lead__image.png");
+    background-size: cover;
+    max-height: 615px;
+    margin: 64px 0 8px;
+}
+
+.lead__image::after {
+    content: '';
+    display: block;
+    padding-bottom: 62.5%;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        max-height: 480px;
+    }
+}

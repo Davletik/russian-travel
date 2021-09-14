@@ -1,0 +1,28 @@
+.place {
+    max-width: 984px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 48px 40px;
+}
+
+.place:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1023px) {
+    .place:not(:last-child) {
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .place:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}
