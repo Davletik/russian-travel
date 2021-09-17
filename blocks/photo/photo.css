@@ -9,16 +9,16 @@
 
 @media screen and (max-width: 1279px) {
     .photo {
-        display: grid;
         grid-template-columns: repeat(3, 3fr);
         gap: 14px;
+        padding: 0 48px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .photo {
         margin: 88px 0;
-        display: grid;
+        padding: 0 24px;
         grid-template-columns: repeat(2, 2fr);
         gap: 16px;
     }
@@ -26,7 +26,7 @@
 @media screen and (max-width: 767px) {
     .photo {
         margin: 64px 0;
-        display: grid;
+        padding: 0 16px;
         grid-template-columns: 1fr;
         gap: 12px;
     }

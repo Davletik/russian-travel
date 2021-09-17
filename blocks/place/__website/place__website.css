@@ -5,6 +5,3 @@
     flex-direction: column;
     justify-content: flex-end;
 }
-.place__website:hover {
-    opacity: 0.8;
-}
